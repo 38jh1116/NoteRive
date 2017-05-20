@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOGO</title>
+	<style>
+		@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{height:100%;}
+
+		body{
+			background-image: url('jeshoots.jpg');
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			margin: 0 auto;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		#page_wrapper{
+			width:100%;height:100%;
+			background-color: rgba(0,0,0,0.3);
+		}
+		section{
+			width: 400px;
+			height: 450px;
+			position: absolute;
+			left:50%;
+			top: 40%;
+			margin-left: -200px;
+			margin-top: -150px;
+			text-align: center;
+			background-color: rgba(255,255,255,0.9);
+			border-radius: 7px;
+		}
+
+		#user_img{
+			width:128px;height:128px;
+			display: inline-block;
+			margin: 50px auto 20px auto;
+			border-radius: 50%;
+		}
+		section h1{
+			color: gray;
+			font-size: 3em;
+			margin: 10px auto;
+			font-weight: 300;
+			letter-spacing: 0.2em;
+		}
+		section h2{
+			color: gray;
+			font-weight: lighter;
+			font-size: 1em;
+			margin-bottom: 50px;
+			letter-spacing: 0.1em;
+		}
+
+		.action li{
+			list-style: none;
+			display: inline;
+			padding: 15px 0 15px 0;
+			margin: 20px 10px;
+			border: 1px solid darkgray;
+			border-radius: 7px;
+			background: rgba(255,255,255,0);
+		}
+		.button {
+			display:inline-block;
+			padding: 15px 50px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+
+		.button{
+			color: gray;
+		}
+		.button:hover{
+			background-color: lightgray;
+		}
+		header{
+			padding:10px 20px;
+		}
+		header a{
+			color:white;
+			font-size:2em;
+			font-weight: 400;
+			text-shadow: 3px 3px 3px gray;
+			letter-spacing: 0.15em;
+		}
+
+	</style>
+</head>
+<body>
+<div id="page_wrapper">
+	<header><a href="#">LOGO</a></header>
+	<section>
+		<div id="user_img"><img src="user.png"></div>
+		<div id="logo">
+			<h1>LOGO</h1>
+			<h2>Ah...mo ra go hal kka...</h2>
+		</div>
+		<ul class="action">
+			<li><a class="button" href="#" >Sign Up</a></li>
+			<li><a class="button" href="#">Login</a></li>
+		</ul>
+	</section>
+</div>
+</body>
+</html>
