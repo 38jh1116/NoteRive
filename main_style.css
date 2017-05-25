@@ -1,0 +1,163 @@
+/* init */
+html,body{
+    height:100%;
+}
+body {
+    padding:0;margin:0;
+    background-image: url('images/jeshoots.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+footer{
+    width:100%;
+    background-color: rgba(242,242,242,0.95);
+    bottom:0px;
+    text-align: center;
+
+    padding:50px 0;
+    color:grey;
+    font-weight: lighter;
+    font-size:1em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+input .placeholder{
+    color: #bbbbbb;
+}
+input::-webkit-input-placeholder { color: #C8C8C8; }
+
+/*  manage_main  */
+#top_bar{
+    margin-top: -20px;
+    height:50px;
+    background-color: black;
+}
+#top_bar li{
+    display: inline;
+    margin:0 20px;
+}
+#top_bar li,#top_bar a{
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+}
+#top_bar a:hover{
+    color:lightgrey;
+}
+#logout{
+    position: absolute;
+    right:50px;
+}
+#user{
+    position: absolute;
+    right:130px;
+}
+#main_menu{
+    width:100%;height:80px;
+    margin:-20px auto -1px auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+}
+#menu_item{
+    margin-left:-40px;
+}
+#menu_item #selected a{
+    color:white;
+}
+#main_menu li {
+    display: inline-block;
+    text-align: center;
+    width:100px;
+    line-height: 80px;
+}
+#main_menu a:hover {
+    color:white;
+}
+#main_menu a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 200;
+}
+#content_main{
+    width:960px;height:1000px;
+    margin:1px auto;
+    background-color: rgba(255,255,255,0.9);
+}
+
+/* main */
+#page_wrapper{
+    width:100%;height:100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#main_section{
+    width: 380px;
+    height: 450px;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    margin-left: -180px;
+    margin-top: -125px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 7px;
+    box-shadow: 2px 2px 30px #6e6e6e;
+}
+#user_img{
+    width:128px;height:128px;
+    display: inline-block;
+    margin: 30px auto 10px auto;
+    border-radius: 50%;
+}
+.action{
+    margin: 20px auto 15px -40px;
+    background: rgba(255,255,255,0);
+}
+.button{
+    list-style: none;
+    display:inline-block;
+    width:130px;
+    height:50px;
+    line-height: 50px;
+    margin:10px 5px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+}
+.button a{
+    color: gray;
+}
+.button:hover{
+    background-color: lightgray;
+}
+.textField{
+    font-size:15px;
+    width: 240px;
+    height: 2.5em;
+    display: block;
+    border-radius:5px;
+    border:1px solid lightgray;
+    padding:1px 20px;
+    margin : 10px auto;
+    color:gray;
+}
+
+#top_logo{
+    padding:10px 20px;
+}
+#top_logo a{
+    color:white;
+    font-size:2em;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px gray;
+    letter-spacing: 0.15em;
+}
+#section_logo {
+    font-size: 1.2em;
+    padding:0 0 25px 0;
+    letter-spacing: 6px;
+    color: rgb(139, 139, 139);
+}
